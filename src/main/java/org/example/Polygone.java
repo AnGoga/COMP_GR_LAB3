@@ -56,11 +56,12 @@ public class Polygone {
             for (int i = 0; i < pts.size(); i++) {
                 Point p1 = pts.get(i);
                 Point p2 = pts.get((i + 1) % pts.size());
+                Utils.line(res, p1.x, p1.y, p2.x, p2.y);
 
                 if (y >= min(p1.y, p2.y) && y < max(p1.y, p2.y)) {
                     double t = (double)(y - p1.y) / (p2.y - p1.y);
                     double dx = t * (p2.x - p1.x);
-                    ps.add(p1.x + (int)dx);
+                    ps.add(p1.x + (int)Math.round(dx));
                 }
             }
 
@@ -90,6 +91,7 @@ public class Polygone {
             for (int i = 0; i < pts.size(); i++) {
                 Point p1 = pts.get(i);
                 Point p2 = pts.get((i + 1) % pts.size());
+                Utils.line(res, p1.x, p1.y, p2.x, p2.y);
 
                 if (y >= min(p1.y, p2.y) && y < max(p1.y, p2.y)) {
                     double t = (double)(y - p1.y) / (p2.y - p1.y);

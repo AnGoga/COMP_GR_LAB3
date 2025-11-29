@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12dc4de-df4e-40b1-a29b-590778aaaefc" name="Changes" comment="init" />
+    <list default="true" id="b12dc4de-df4e-40b1-a29b-590778aaaefc" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Polygone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Polygone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SimpleGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SimpleGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Utils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +66,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Angoga\IdeaProjects\COMP_GRAPH\lab3\src\main\resources\result\1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Angoga\IdeaProjects\COMP_GRAPH\lab3\src\main\resources\result" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="SimpleGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -98,7 +107,12 @@
       <workItem from="1763921989307" duration="247000" />
       <workItem from="1763975246676" duration="1202000" />
       <workItem from="1763976462968" duration="98000" />
-      <workItem from="1763976570771" duration="22000" />
+      <workItem from="1763976570771" duration="1325000" />
+      <workItem from="1764006109034" duration="2098000" />
+      <workItem from="1764064536631" duration="4672000" />
+      <workItem from="1764076415520" duration="1957000" />
+      <workItem from="1764234098314" duration="5170000" />
+      <workItem from="1764417818106" duration="6518000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -116,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763976403648</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1763976618395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763976618395</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,5 +158,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SimpleGUI.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

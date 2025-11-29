@@ -3,10 +3,11 @@ package org.example;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.List;
 import java.util.Set;
 
 public class SimpleGUI extends JFrame {
-    Polygone currentPolygon = new Polygone();
+    static Polygone currentPolygon = new Polygone();
     Canvas canvas = new Canvas();
     JCheckBox fillBox = new JCheckBox("Заливка");
     JRadioButton evenOdd = new JRadioButton("Even-Odd", true);
@@ -92,6 +93,41 @@ public class SimpleGUI extends JFrame {
     }
 
     public static void main(String[] args) {
+//        currentPolygon.pts.addAll(List.of(
+//                new Point(100, 100),
+//                new Point(600, 100),
+//                new Point(300, 100)
+//        ));
+//
+//        currentPolygon.pts.addAll(List.of(
+//                new Point(100, 100),
+//                new Point(600, 100),
+//                new Point(600, 300),
+//                new Point(600, 100),
+//                new Point(300, 100)
+//        ));
+//        currentPolygon.pts.addAll(List.of(
+//                new Point(100, 100),
+//                new Point(200, 200),
+//                new Point(300, 300)
+//        ));
+//
+//        currentPolygon.pts.addAll(List.of(
+//                new Point(100, 100),
+//                new Point(600, 100),
+//                new Point(600, 110),
+//                new Point(590, 110),
+//                new Point(590, 100),
+//                new Point(300, 100)
+//        ));
+
+//        currentPolygon.pts.addAll(List.of(
+//                new Point(100, 100),
+//                new Point(101, 100),
+//                new Point(101, 101),
+//                new Point(100, 101)
+//        ));
+
         SwingUtilities.invokeLater(() -> new SimpleGUI().setVisible(true));
     }
 }
